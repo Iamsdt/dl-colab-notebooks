@@ -2,7 +2,8 @@ Try out deep learning models online on Colab with a single click.
 
 ## TTS
 * An English female voice ([LJSpeech](https://keithito.com/LJ-Speech-Dataset/)) demo using [NVIDIA/tacotron2](https://github.com/NVIDIA/tacotron2) and [NVIDIA/waveglow](https://github.com/NVIDIA/waveglow)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/NVidia_Tacotron2_Waveglow.ipynb)
+* LibriTTS trained multi speaker TTS demo using [NVIDIA/flowtron](https://github.com/NVIDIA/flowtron)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/NVidia_Flowtron_Waveglow.ipynb)
 * An English female voice ([LJSpeech](https://keithito.com/LJ-Speech-Dataset/)) demo using [Rayhane-mamah/Tacotron-2](https://github.com/Rayhane-mamah/Tacotron-2) and [r9y9/wavenet_vocoder](https://github.com/r9y9/wavenet_vocoder)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/r9y9/Colaboratory/blob/master/Tacotron2_and_WaveNet_text_to_speech_demo.ipynb)
 * A Mongolian male voice demo using [Rayhane-mamah/Tacotron-2](https://github.com/Rayhane-mamah/Tacotron-2) with the Griffin-Lim algorithm
@@ -18,6 +19,7 @@ Try out deep learning models online on Colab with a single click.
 * Voice clone demo using [CorentinJ/Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/RealTimeVoiceCloning.ipynb)
 * Official [ESPnet](https://github.com/espnet/espnet) English/Chinese/Japanese TTS notebook [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/espnet/notebook/blob/master/tts_realtime_demo.ipynb)
+* Official [ForwardTacotron](https://github.com/as-ideas/ForwardTacotron) LJSpeech TTS notebook [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/as-ideas/ForwardTacotron/blob/master/notebooks/synthesize.ipynb)
 
 
 ## Speech Recognition
@@ -51,14 +53,17 @@ Try out deep learning models online on Colab with a single click.
 * CenterNet (Objects as Points) demo using [xingyizhou/CenterNet](https://github.com/xingyizhou/CenterNet)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/CenterNet_ObjectsAsPoints.ipynb)
 * CenterNet (Objects as Points) 3D car detection demo using [xingyizhou/CenterNet](https://github.com/xingyizhou/CenterNet)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/CenterNet_ObjectsAsPoints_3D.ipynb)
   * works only on a Kitti image because of camera parameters
+* Official DE⫶TR demo notebook [facebookresearch/detr](https://github.com/facebookresearch/detr)
+  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/facebookresearch/detr/blob/colab/notebooks/detr_demo.ipynb)
+* Official Google [EfficientDet](https://arxiv.org/abs/1911.09070) notebook
+  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/google/automl/blob/master/efficientdet/tutorial.ipynb)
 
 ## Segmentation
 * For Mask RCNN, see [Object Detection](https://github.com/tugstugi/dl-colab-notebooks#object-detection)
 * Semantic segmentation trained on [ADE20K](http://groups.csail.mit.edu/vision/datasets/ADE20K/) using [CSAILVision/semantic-segmentation-pytorch](https://github.com/CSAILVision/semantic-segmentation-pytorch)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/CSAILVision_SemanticSegmentation.ipynb)
-* [DeepLabV3](https://arxiv.org/abs/1706.05587) from [torchvision 0.3.0](https://pytorch.org/docs/stable/torchvision/index.html)
+* [DeepLabV3](https://arxiv.org/abs/1706.05587) from [torchvision](https://pytorch.org/docs/stable/torchvision/index.html)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/TorchvisionDeepLabV3.ipynb)
 * Fast tracking and segmentation with [SiamMask](https://github.com/foolwood/SiamMask) on Youtube videos
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/SiamMask.ipynb)
@@ -85,7 +90,7 @@ Try out deep learning models online on Colab with a single click.
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/DensePose.ipynb)
 * HRNet using [lxy5513/hrnet](https://github.com/lxy5513/hrnet) on Youtube videos
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/HRNet_lxy5513.ipynb)
-* Keypoint R-CNN from [torchvision 0.3.0](https://pytorch.org/docs/stable/torchvision/index.html)
+* Keypoint R-CNN from [torchvision](https://pytorch.org/docs/stable/torchvision/index.html)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/TorchvisionPersonKeypoint.ipynb)
 
 
@@ -104,6 +109,9 @@ Try out deep learning models online on Colab with a single click.
 * [DeOldify](https://github.com/jantic/DeOldify): A Deep Learning based project for colorizing and restoring old images
   * deoldify an image [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jantic/DeOldify/blob/master/ImageColorizerColab.ipynb)
   * deoldify a video [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jantic/DeOldify/blob/master/VideoColorizerColab.ipynb)
+* Generates a talking face video from an image and an audio using [Rudrabha/LipGAN](https://github.com/Rudrabha/LipGAN)
+  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/LipGAN.ipynb)
+* PULSE: Self-Supervised Photo Upsampling via Latent Space Exploration of Generative Models [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ctawong/PULSE_from_image_url/blob/master/PULSE_URL.ipynb)
 
 
 ## Misc
@@ -112,3 +120,6 @@ Try out deep learning models online on Colab with a single click.
 * Finetune GPT2 [ak9250/gpt-2-colab](https://github.com/ak9250/gpt-2-colab/) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ak9250/gpt-2-colab/blob/master/GPT_2.ipynb)
 * Music Source Separation [sigsep/open-unmix-pytorch](https://github.com/sigsep/open-unmix-pytorch) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1mijF0zGWxN-KaxTnd0q6hayAlrID5fEQ)
 * Image Super Resolution [idealo/image-super-resolution](https://github.com/idealo/image-super-resolution) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tugstugi/dl-colab-notebooks/blob/master/notebooks/ISR_Prediction_Tutorial.ipynb)
+* First Order Motion Model for Image Animation [AliaksandrSiarohin/first-order-model](https://github.com/AliaksandrSiarohin/first-order-model) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AliaksandrSiarohin/first-order-model/blob/master/demo.ipynb)
+* Official notebook of 3D Photography using Context-aware Layered Depth Inpainting [vt-vl-lab/3d-photo-inpainting](https://github.com/vt-vl-lab/3d-photo-inpainting) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1706ToQrkIZshRSJSHvZ1RuCiM__YX3Bz)
+* [Image-GPT](https://github.com/openai/image-gpt) notebook  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/apeguero1/image-gpt/blob/master/Image_GPT_Sample_with_Conditioning.ipynb)
